@@ -111,3 +111,29 @@ body {
     width: 0%;
     transform: width 0.3s ease;
 }
+
+/* RESULT SECREEN */
+
+#result-screen {
+    color: #e86a33;
+    margin-bottom: 30px;
+}
+
+.result-info {
+    background-color: #f8f0e5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.result-info p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#result-message {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e86a33;
+}

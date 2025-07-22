@@ -8,12 +8,15 @@
 </head>
 <body>
     <div class="container">
+        
+        <!-- 1ST SCREEN -->
         <div class="screen active" id="start-screen">
             <h1>Quiz Time</h1>
             <p>Test your knowledge with these fun questions</p>
             <button id="start-btn">Start Quiz</button>
         </div>
 
+        <!-- 2ND SCREEN -->
         <div class="screen" id="quiz-screen">
             <div class="quiz-header">
                 <h2 id="question-text">Question goes here</h2>
@@ -27,7 +30,26 @@
                     </p>
                 </div>
             </div>
+            
+            <div class="answers-container" id="answers-container">
+                <!-- Answer buttons would be fetched from Javascript later -->
+            </div>
+
+            <div class="progess-bar">
+                <div class="progress" id="progress"></div>
+            </div>
         </div>
+
+        <!-- 3RD SCREEN -->
+         <div class="screen" id="result-screen">
+            <h1>Quiz Results</h1>
+            <div class="result-info">
+                <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+
+                <div class="result-message">Good Job!</div>
+            </div>
+            <button id="restart-btn">Restart Quiz</button>
+         </div>
     </div>
     
     <script src="main.js"></script>

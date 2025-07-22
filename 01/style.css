@@ -36,4 +36,10 @@ body {
     display: block;
 }
 
+/* START SCREEN */
 
+#start-screen h1 {
+    color: #e86a33;
+    margin-bottom: 20px;
+    font: 2.5rem;
+}
